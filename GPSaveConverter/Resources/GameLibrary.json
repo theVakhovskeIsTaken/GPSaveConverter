@@ -1,5 +1,5 @@
-﻿{
-  "Version": "2023-01-28C",
+{
+  "Version": "2023-04-20A",
   "GameInfo": [
     {
       "PackageName": "7904SEGAEuropeLtd.TwoPointHospital-GamePass_zs7esxpzd8d5c",
@@ -255,5 +255,21 @@
         }
       ]
     }
+    {
+      "PackageName": "FocusHomeInteractiveSA.579645D26CFD_4hny5m903y3g0",
+      "TargetProfileTypes": [ "Steam" ],
+      "BaseNonXboxSaveLocation": "%LOCALAPPDATA%\\AtomicHeart\\Saved\\SaveGames\\",
+      "FileTranslations": [
+        {
+          "NonXboxFilename": "${FileName}.sav",
+          "XboxFileID": "${FileName}",
+          "ContainerName1": "${FileName}",
+          "ContainerName2": "${FileName}",
+          "NamedRegexGroups": [
+            "(?<FileName>[\\w,-.]+)"
+          ]
+        }
+      ]
+    },
   ]
 }
